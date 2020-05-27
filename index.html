@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title> 지금 나의 생각과 느낌</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css(3).css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <style>
+            #interests{
+                color: rgb(202, 27, 150);
+            }
+
+            #eats {
+                color: rgb(243, 228, 17);
+            }
+
+            #work {
+                color: rgb(17, 243, 47);
+            }
+
+            #contact {
+                color: rgb(51, 17, 243);
+            }
+
+            .half img {
+                margin-bottom: -6px;
+                margin-top: 16px;
+                opacity: 0.8;
+                cursor: pointer
+            }
+
+            .half img:hover {
+                opacity: 1
+            }
+
+            a:link {
+                color: red;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: white;
+            }
+
+            a {
+                color: red;;
+            }
+
+            .fa {
+                padding: 20px;
+                font-size: 50px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+            }
+
+            @media (max-width: 600px) {
+                #side {
+                    display: none;
+                }
+
+                .main {
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--왼쪽 사이드 메뉴-->
+        <div id="side">
+            <nav class="sidebar colorname" style="width:180px; font-weight:bold;">
+                <div class="bar-block">
+                    <a href="#int">interests</a> <br>
+                    <a href="#eat">eats</a> <br>
+                    <a href="#works">works</a> <br>
+                    <a href="#con">contact</a> <br>
+                </div>
+            </nav>
+        </div>
+
+        <!--페이지 상단-->
+        <div class="main" style="margin-left:200px; margin-right:40px;">
+            <h2 class="caption"> welcome to my world of work & life </h2>
+           
+            <!--관심사-->
+            <div class="bigbox" id="int" style="margin-top:0px;">
+                <h1 class="jumbo"><b> 김사라 </b></h1>
+                <h1 class="xxxlarge colorname" id="interests"><b>interests</b></h1>
+                <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+            </div>
+
+            <!--사진-->
+            <div class="imgpadding">
+                <div class="half">
+                    <img src="댕댕이.jpg" style="width:100%" alt="댕댕">
+                    <img src="다이어트.jpg" style="width:90%" alt="다이어트">
+                    <img src="부찌.jpg" style="width:80%" alt="부대찌개">
+                </div>
+
+                <div class="half">
+                    <img src="인테리어.jpg" style="width:100%" alt="인테리어">
+                    <img src="여행.jpg" style="width:100%" alt="여행">
+                    <img src="뉴오더클럽.jpg" style="width:100%" alt="뉴오더클럽">
+                </div>
+            </div>
+
+            <!--음식-->
+            <div class="bigbox" id="eat" style="margin-top:75px">
+                <h1 class="xxxlarge colorname" id="eats"><b>want to eats</b></h1>
+                <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+                <p>저는 지금 이게 먹고 싶습니다. 부대찌개</p>
+                <p> 부대찌개가 너무너무 먹고싶다. 그저께부터 먹고싶었는데 먹을 기회가 안돼서 못먹고 있다. 내일은 꼭 먹을거다. 해야할 과제가 산더미 처럼 쌓여있지만
+                    꼭 부대찌개는 틈내서 먹고 말것이다. 아 근데 다이어트 해야되는데 이 무슨 말도 안되는 소리인가. 부대찌개만 먹고 진짜 바로 다이어트 해야지... 
+                    내일의 나야 화이팅!
+                    아 그리고 나는 뉴오더 클럽의 피자를 너무너무 좋아한다 개맛있다. 저 사진이 바로 뉴오더 클럽 피자이다. 사진만 봐도 엄청 맛있어보이지 않는가?!?! 다음주 금요일이나 목요일날 또 먹으러 가기로 했다. 감자튀김 피자랑 치킨텐더 피자 하프앤하프로 시켜서 먹을거다.
+                    부대찌개까지만 먹고 다이어트하다가 피자만 딱 먹고 또 열심히 다이어트 해야지..ㅎㅎ 원래 다이어트는 이렇게 하는거다^^
+                </p>
+            </div>
+
+            <!--일-->
+            <div class="bigbox" id="works" style="margin-top:75px">
+                <h1 class="xxxlarge" id="work"><b>works</b></h1>
+                <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+                <p>오늘 한 나의 작업</p>
+                <p>오늘 나는 우리집 강아지 댕댕이의 털을 깎였다. 애견 미용샵 안가고 이렇게 내가 댕댕이 털 깎여준지 어언 2년 반 정도가 지난것같다.
+                털도 깎이고, 목욕도 시켰으니 이번주나 다음주 중으로 꼭 댕댕이 데리고 동물병원을 가야할 것 같다. 왜냐하면 댕댕이 이빨이 심상치 않기 때문이다 아마 엄청 아파하고 있는 것 같다. 얼른 과제가 끝나야 댕댕이도 잘 보살펴줄 수 있을텐데 ㅠㅠ 속상하다. 댕댕아 미안해 언니가  부지런히 끝내고 얼른 안아프게 병원 데려갈게!!
+                </p>
+                <p><b>동물병원갔다가 댕댕이 간식이랑 사료도 좀 사야겠다. 긴급재난지원금으로 사야지</b></p>
+            </div>
+
+            <!--연락처-->
+            <div class="bigbox" id="con" style="margin-top:75px">
+                <h1 class="xxxlarge" id="contact"><b>contact</b></h1>
+                <hr style="width:40%; border:5px solid black; float: left; clear: both; "> <br>
+                <ul class="contact-info">
+                    <li>+82 010-2479-2031</li>
+                    <li><a href="mailto:saralove20@naver.com">saralove20@naver.com</a></li> <br>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="https://www.instagram.com/s._.ara_/" target="_blank" class="fa fa-instagram"></a>
+
+
+
+                    <footer>
+                        <p class="credit">
+                            Copyright &copy; All rights reserved | by 김사라 </p>
+
+                    </footer>
+            </div>
+        </div>
+    </body>
+</html>
